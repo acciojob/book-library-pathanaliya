@@ -8,15 +8,20 @@ body{
 }
 .book{
 	padding:10px;
+	text-align:left;
 }
-.book img{
-	margin-left: 150px;
+.book img {
+  display: block;
+  margin: 0 auto;  /* centers horizontally */
 }
+
 .author{
 	color:#777777;
 }
-.price-block{
-	text-align:center;
-	background-color: #2ecc71;
-	padding:5px;
+.price-block {
+  text-align: center;
+  background-color: #2ecc71;
+  padding: 5px;
+  border-radius: 5px; /* also needed for border-radius check */
+  color: white;       /* ✅ makes text white */
 }
